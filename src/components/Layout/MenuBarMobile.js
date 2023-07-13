@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { FiMenu as Icon } from 'react-icons/fi'
 import { FaUser } from 'react-icons/fa'
 
-import logo from '@/img/logo.svg'
+// import logo from '@/img/logo.svg'
 
 export default function MenuBarMobile({ setter }) {
     return (
@@ -19,12 +19,7 @@ export default function MenuBarMobile({ setter }) {
             </button>
             <Link href="/" className="mx-auto">
                 {/*eslint-disable-next-line*/}
-                <img
-                    src={logo.src}
-                    alt="Company Logo"
-                    width={50}
-                    height={50}
-                />
+              
             </Link>
             <Link
                 className="text-3xl flex text-white"
